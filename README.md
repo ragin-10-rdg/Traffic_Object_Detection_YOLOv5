@@ -18,22 +18,22 @@ This repository represents my commitment to continuous learning, problem-solving
 
 ## Project Structure
 
-Traffic_Object_Detection_YOLOv5/
-│
-├── yolov5/ # YOLOv5 submodule with detection model and scripts
-│ ├── models/ # Model architectures and weights
-│ ├── data/ # Dataset configurations
-│ ├── utils/ # Utility scripts
-│ └── train.py # Training script
-│
-├── src/ # Java source code for integrating detection model
-│ └── (Java files)
-│
-├── docs/ # Documentation and usage guides
-│
-├── README.md # Project overview and instructions
-└── .gitmodules # Git submodule configuration 
----
+- `Traffic_Object_Detection_YOLOv5/`
+  - `yolov5/`  
+    YOLOv5 submodule with detection model and scripts  
+    - `models/` — Model architectures and weights  
+    - `data/` — Dataset configurations  
+    - `utils/` — Utility scripts  
+    - `train.py` — Training script  
+  - `src/`  
+    Java source code for integrating detection model  
+    - (Java files)  
+  - `docs/`  
+    Documentation and usage guides  
+  - `README.md`  
+    Project overview and instructions  
+  - `.gitmodules`  
+    Git submodule configuration  
 
 ## Features
 
